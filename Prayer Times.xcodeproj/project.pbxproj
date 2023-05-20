@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2CA4082A193283007B4647 /* Prayer_TimesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4072A193283007B4647 /* Prayer_TimesApp.swift */; };
+		0C2CA40A2A193283007B4647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4092A193283007B4647 /* ContentView.swift */; };
+		0C2CA40C2A193284007B4647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CA40B2A193284007B4647 /* Assets.xcassets */; };
+		0C2CA40F2A193284007B4647 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CA40E2A193284007B4647 /* Preview Assets.xcassets */; };
+		0C2CA41A2A193284007B4647 /* Prayer_TimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4192A193284007B4647 /* Prayer_TimesTests.swift */; };
+		0C2CA4242A193284007B4647 /* Prayer_TimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4232A193284007B4647 /* Prayer_TimesUITests.swift */; };
+		0C2CA4262A193284007B4647 /* Prayer_TimesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4252A193284007B4647 /* Prayer_TimesUITestsLaunchTests.swift */; };
+		0C2CA4352A193302007B4647 /* PrayerTimesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4342A193302007B4647 /* PrayerTimesFetcher.swift */; };
+		0C2CA4372A19330D007B4647 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4362A19330D007B4647 /* HomeView.swift */; };
+		0C2CA43C2A19345E007B4647 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA43B2A19345E007B4647 /* LocationModel.swift */; };
+		0C2CA43E2A19347C007B4647 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA43D2A19347C007B4647 /* InputView.swift */; };
+		0C2CA4412A193C62007B4647 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4402A193C62007B4647 /* APIResponse.swift */; };
+		0C2CA4442A193CE3007B4647 /* Convert24To12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA4432A193CE3007B4647 /* Convert24To12.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2CA4162A193284007B4647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C2CA3FC2A193283007B4647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2CA4032A193283007B4647;
+			remoteInfo = "Prayer Times";
+		};
+		0C2CA4202A193284007B4647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C2CA3FC2A193283007B4647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2CA4032A193283007B4647;
+			remoteInfo = "Prayer Times";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2CA4042A193283007B4647 /* Prayer Times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prayer Times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CA4072A193283007B4647 /* Prayer_TimesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer_TimesApp.swift; sourceTree = "<group>"; };
+		0C2CA4092A193283007B4647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C2CA40B2A193284007B4647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2CA40E2A193284007B4647 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C2CA4102A193284007B4647 /* Prayer_Times.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prayer_Times.entitlements; sourceTree = "<group>"; };
+		0C2CA4152A193284007B4647 /* Prayer TimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prayer TimesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CA4192A193284007B4647 /* Prayer_TimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer_TimesTests.swift; sourceTree = "<group>"; };
+		0C2CA41F2A193284007B4647 /* Prayer TimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prayer TimesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CA4232A193284007B4647 /* Prayer_TimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer_TimesUITests.swift; sourceTree = "<group>"; };
+		0C2CA4252A193284007B4647 /* Prayer_TimesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer_TimesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C2CA4342A193302007B4647 /* PrayerTimesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesFetcher.swift; sourceTree = "<group>"; };
+		0C2CA4362A19330D007B4647 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0C2CA43B2A19345E007B4647 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		0C2CA43D2A19347C007B4647 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		0C2CA4402A193C62007B4647 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		0C2CA4432A193CE3007B4647 /* Convert24To12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert24To12.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C2CA4012A193283007B4647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CA4122A193284007B4647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CA41C2A193284007B4647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2CA3FB2A193283007B4647 = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4062A193283007B4647 /* Prayer Times */,
+				0C2CA4182A193284007B4647 /* Prayer TimesTests */,
+				0C2CA4222A193284007B4647 /* Prayer TimesUITests */,
+				0C2CA4052A193283007B4647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C2CA4052A193283007B4647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4042A193283007B4647 /* Prayer Times.app */,
+				0C2CA4152A193284007B4647 /* Prayer TimesTests.xctest */,
+				0C2CA41F2A193284007B4647 /* Prayer TimesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C2CA4062A193283007B4647 /* Prayer Times */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4422A193CD5007B4647 /* Helpers */,
+				0C2CA4382A19343A007B4647 /* Data */,
+				0C2CA4332A1932F5007B4647 /* Networking */,
+				0C2CA4322A1932EA007B4647 /* Views */,
+				0C2CA4072A193283007B4647 /* Prayer_TimesApp.swift */,
+				0C2CA4092A193283007B4647 /* ContentView.swift */,
+				0C2CA40B2A193284007B4647 /* Assets.xcassets */,
+				0C2CA4102A193284007B4647 /* Prayer_Times.entitlements */,
+				0C2CA40D2A193284007B4647 /* Preview Content */,
+			);
+			path = "Prayer Times";
+			sourceTree = "<group>";
+		};
+		0C2CA40D2A193284007B4647 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA40E2A193284007B4647 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C2CA4182A193284007B4647 /* Prayer TimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4192A193284007B4647 /* Prayer_TimesTests.swift */,
+			);
+			path = "Prayer TimesTests";
+			sourceTree = "<group>";
+		};
+		0C2CA4222A193284007B4647 /* Prayer TimesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4232A193284007B4647 /* Prayer_TimesUITests.swift */,
+				0C2CA4252A193284007B4647 /* Prayer_TimesUITestsLaunchTests.swift */,
+			);
+			path = "Prayer TimesUITests";
+			sourceTree = "<group>";
+		};
+		0C2CA4322A1932EA007B4647 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4362A19330D007B4647 /* HomeView.swift */,
+				0C2CA43D2A19347C007B4647 /* InputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C2CA4332A1932F5007B4647 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4342A193302007B4647 /* PrayerTimesFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0C2CA4382A19343A007B4647 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4392A193440007B4647 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0C2CA4392A193440007B4647 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA43F2A193C51007B4647 /* APIResponseModel */,
+				0C2CA43A2A19344C007B4647 /* LocationModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C2CA43A2A19344C007B4647 /* LocationModel */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA43B2A19345E007B4647 /* LocationModel.swift */,
+			);
+			path = LocationModel;
+			sourceTree = "<group>";
+		};
+		0C2CA43F2A193C51007B4647 /* APIResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4402A193C62007B4647 /* APIResponse.swift */,
+			);
+			path = APIResponseModel;
+			sourceTree = "<group>";
+		};
+		0C2CA4422A193CD5007B4647 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CA4432A193CE3007B4647 /* Convert24To12.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C2CA4032A193283007B4647 /* Prayer Times */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CA4292A193284007B4647 /* Build configuration list for PBXNativeTarget "Prayer Times" */;
+			buildPhases = (
+				0C2CA4002A193283007B4647 /* Sources */,
+				0C2CA4012A193283007B4647 /* Frameworks */,
+				0C2CA4022A193283007B4647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prayer Times";
+			productName = "Prayer Times";
+			productReference = 0C2CA4042A193283007B4647 /* Prayer Times.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C2CA4142A193284007B4647 /* Prayer TimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CA42C2A193284007B4647 /* Build configuration list for PBXNativeTarget "Prayer TimesTests" */;
+			buildPhases = (
+				0C2CA4112A193284007B4647 /* Sources */,
+				0C2CA4122A193284007B4647 /* Frameworks */,
+				0C2CA4132A193284007B4647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2CA4172A193284007B4647 /* PBXTargetDependency */,
+			);
+			name = "Prayer TimesTests";
+			productName = "Prayer TimesTests";
+			productReference = 0C2CA4152A193284007B4647 /* Prayer TimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C2CA41E2A193284007B4647 /* Prayer TimesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CA42F2A193284007B4647 /* Build configuration list for PBXNativeTarget "Prayer TimesUITests" */;
+			buildPhases = (
+				0C2CA41B2A193284007B4647 /* Sources */,
+				0C2CA41C2A193284007B4647 /* Frameworks */,
+				0C2CA41D2A193284007B4647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2CA4212A193284007B4647 /* PBXTargetDependency */,
+			);
+			name = "Prayer TimesUITests";
+			productName = "Prayer TimesUITests";
+			productReference = 0C2CA41F2A193284007B4647 /* Prayer TimesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C2CA3FC2A193283007B4647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0C2CA4032A193283007B4647 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0C2CA4142A193284007B4647 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0C2CA4032A193283007B4647;
+					};
+					0C2CA41E2A193284007B4647 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0C2CA4032A193283007B4647;
+					};
+				};
+			};
+			buildConfigurationList = 0C2CA3FF2A193283007B4647 /* Build configuration list for PBXProject "Prayer Times" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C2CA3FB2A193283007B4647;
+			productRefGroup = 0C2CA4052A193283007B4647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C2CA4032A193283007B4647 /* Prayer Times */,
+				0C2CA4142A193284007B4647 /* Prayer TimesTests */,
+				0C2CA41E2A193284007B4647 /* Prayer TimesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C2CA4022A193283007B4647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CA40F2A193284007B4647 /* Preview Assets.xcassets in Resources */,
+				0C2CA40C2A193284007B4647 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CA4132A193284007B4647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CA41D2A193284007B4647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C2CA4002A193283007B4647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CA4412A193C62007B4647 /* APIResponse.swift in Sources */,
+				0C2CA40A2A193283007B4647 /* ContentView.swift in Sources */,
+				0C2CA4372A19330D007B4647 /* HomeView.swift in Sources */,
+				0C2CA4442A193CE3007B4647 /* Convert24To12.swift in Sources */,
+				0C2CA4082A193283007B4647 /* Prayer_TimesApp.swift in Sources */,
+				0C2CA43E2A19347C007B4647 /* InputView.swift in Sources */,
+				0C2CA43C2A19345E007B4647 /* LocationModel.swift in Sources */,
+				0C2CA4352A193302007B4647 /* PrayerTimesFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CA4112A193284007B4647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CA41A2A193284007B4647 /* Prayer_TimesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CA41B2A193284007B4647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CA4262A193284007B4647 /* Prayer_TimesUITestsLaunchTests.swift in Sources */,
+				0C2CA4242A193284007B4647 /* Prayer_TimesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C2CA4172A193284007B4647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C2CA4032A193283007B4647 /* Prayer Times */;
+			targetProxy = 0C2CA4162A193284007B4647 /* PBXContainerItemProxy */;
+		};
+		0C2CA4212A193284007B4647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C2CA4032A193283007B4647 /* Prayer Times */;
+			targetProxy = 0C2CA4202A193284007B4647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C2CA4272A193284007B4647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C2CA4282A193284007B4647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0C2CA42A2A193284007B4647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Prayer Times/Prayer_Times.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prayer Times/Preview Content\"";
+				DEVELOPMENT_TEAM = X5VS7A47L6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arash.Prayer-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C2CA42B2A193284007B4647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Prayer Times/Prayer_Times.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prayer Times/Preview Content\"";
+				DEVELOPMENT_TEAM = X5VS7A47L6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arash.Prayer-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0C2CA42D2A193284007B4647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5VS7A47L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arash.Prayer-TimesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prayer Times.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prayer Times";
+			};
+			name = Debug;
+		};
+		0C2CA42E2A193284007B4647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5VS7A47L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arash.Prayer-TimesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prayer Times.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prayer Times";
+			};
+			name = Release;
+		};
+		0C2CA4302A193284007B4647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5VS7A47L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arash.Prayer-TimesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Prayer Times";
+			};
+			name = Debug;
+		};
+		0C2CA4312A193284007B4647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5VS7A47L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arash.Prayer-TimesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Prayer Times";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2CA3FF2A193283007B4647 /* Build configuration list for PBXProject "Prayer Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CA4272A193284007B4647 /* Debug */,
+				0C2CA4282A193284007B4647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2CA4292A193284007B4647 /* Build configuration list for PBXNativeTarget "Prayer Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CA42A2A193284007B4647 /* Debug */,
+				0C2CA42B2A193284007B4647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2CA42C2A193284007B4647 /* Build configuration list for PBXNativeTarget "Prayer TimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CA42D2A193284007B4647 /* Debug */,
+				0C2CA42E2A193284007B4647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2CA42F2A193284007B4647 /* Build configuration list for PBXNativeTarget "Prayer TimesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CA4302A193284007B4647 /* Debug */,
+				0C2CA4312A193284007B4647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C2CA3FC2A193283007B4647 /* Project object */;
+}
